@@ -1,0 +1,22 @@
+/* SocialIcons.css */
+
+.social-icons-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .social-icons-container a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icons-container a:hover {
+    color: #fbff00; /* Fare üzerine gelindiğinde rengi değiştirir */
+    transform: scale(1.2); /* Fare üzerine gelindiğinde boyutunu büyütür */
+  }
+  

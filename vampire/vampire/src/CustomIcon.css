@@ -1,0 +1,36 @@
+/* CustomIcon.css */
+
+.custom-icon-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+  }
+  
+  .custom-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-icon:hover {
+    background-color: #ddd;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .custom-icon img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+  }
+  body{
+    background-image: url('/images/vamplogo.png');
+  }

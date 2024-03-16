@@ -1,0 +1,20 @@
+/* ProfileInfo.css */
+
+.profile-info {
+    text-align: center;
+    color: white; /* Yazı rengini beyaz yapar */
+  }
+  
+  .profile-info h2 {
+    margin-bottom: 10px;
+    font-size: 24px; /* Başlık yazı boyutunu ayarlar */
+    font-weight: bold; /* Başlık yazı kalınlığını artırır */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Yazıya gölge ekler */
+  }
+  
+  .profile-info p {
+    margin-bottom: 5px;
+    font-size: 16px; /* Paragraf yazı boyutunu ayarlar */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Yazıya hafif bir gölge ekler */
+  }
+  

@@ -1,0 +1,17 @@
+/* UserPosts.css */
+
+.user-posts {
+    text-align: center;
+    color: white; /* Yazı rengini beyaz yapar */
+  }
+  
+  .user-posts h3 {
+    margin-bottom: 20px;
+    font-size: 24px; /* Başlık yazı boyutunu ayarlar */
+    font-weight: bold; /* Başlık yazı kalınlığını artırır */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Yazıya gölge ekler */
+  }
+  
+  
+  
+  

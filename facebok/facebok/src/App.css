@@ -1,0 +1,92 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-info img {
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-info img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.timeline {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto; /* Sayfanın tam ortasına hizalanması için */
+  width: 80%; /* Sayfanın genişliğinin %80'ini kaplaması için */
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.post {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 20px; /* Postlar arasına boşluk bırakmak için */
+}
+
+.post img {
+  width: 400px;
+  height: 400px;
+}
+
+.post-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-details img {
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.post-details p {
+  margin-bottom: 5px;
+}
+
+.post-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+}
+
+.post-caption:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
